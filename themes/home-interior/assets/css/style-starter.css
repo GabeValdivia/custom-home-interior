@@ -3120,6 +3120,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
+  .navbar-nav li { margin-right: 24px;} /*Added to fix WordPress classes breaking nav margin-right on li*/
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
