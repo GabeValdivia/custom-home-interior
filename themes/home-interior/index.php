@@ -125,12 +125,12 @@
           <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
         </div>
         <div class="col-lg-6 img-grids mt-lg-0 mt-5 pl-lg-4">
-            <img src="assets/images/p1.jpg" alt="" class="img-fluid radius-image" />
-            <img src="assets/images/p2.jpg" alt="" class="img-fluid radius-image" />
-            <img src="assets/images/p3.jpg" alt="" class="img-fluid radius-image" />
-            <img src="assets/images/p4.jpg" alt="" class="img-fluid radius-image" />
-            <img src="assets/images/p5.jpg" alt="" class="img-fluid radius-image" />
-            <img src="assets/images/p6.jpg" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p1.jpg'; ?>" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p2.jpg'; ?>" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p3.jpg'; ?>" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p4.jpg'; ?>" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p5.jpg'; ?>" alt="" class="img-fluid radius-image" />
+            <img src="<?php echo get_template_directory_uri().'/assets/images/p6.jpg'; ?>" alt="" class="img-fluid radius-image" />
         </div>
 
       </div>

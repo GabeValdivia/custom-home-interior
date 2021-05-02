@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Home Interior - Interior Category Bootstrap Responsive Website Template | Home : W3layouts</title>
+  <title><?php bloginfo('name'); ?></title>
   <!-- Get Header -->
   <?php wp_head(); ?>
 </head>
@@ -50,8 +50,7 @@
   <div class="container">
       <nav class="navbar navbar-expand-lg">
           <h1><a class="navbar-brand" href="index.html">
-                  <span class="sub-log">Home</span> Interior
-              </a></h1>
+                  <span class="sub-log"><?php bloginfo('name'); ?></a></h1>
           <!-- if logo is image enable this   
     <a class="navbar-brand" href="#index.html">
         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />

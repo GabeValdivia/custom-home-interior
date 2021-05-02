@@ -178,12 +178,9 @@
 
 <!-- Template JavaScript -->
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-
-<script src="assets/js/theme-change.js"></script>
+<?php wp_footer(); ?>
 
 <!-- magnific popup -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script>
   $(document).ready(function () {
     $('.popup-with-zoom-anim').magnificPopup({
@@ -221,7 +218,6 @@
 </script>
 <!-- magnific popup -->
 
-<script src="assets/js/owl.carousel.js"></script>
 <!-- script for banner slider -->
 <script>
   $(document).ready(function () {
@@ -336,8 +332,6 @@
   });
 </script>
 <!-- disable body scroll which navbar is in active -->
-
-<script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 
