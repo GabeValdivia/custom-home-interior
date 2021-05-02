@@ -64,17 +64,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mx-lg-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item @@about__active">
-                      <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item @@contact__active">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
+              <?php wp_nav_menu( array( 'menu_class' => 'navbar-nav mx-lg-auto', 'container' => 'ul', )); ?>
           </div>
 
           <div class="d-lg-block d-none">
