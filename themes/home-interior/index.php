@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4">
                     <div class="position-relative">
-                        <img src="assets/images/s1.jpg" alt="" class="img-fluid">
+                        <img src="<?php echo get_template_directory_uri().'/assets/images/s1.jpg'; ?>" alt="" class="img-fluid">
                         <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
                             <span class="video-play-icon">
                                 <span class="fa fa-play"></span>
